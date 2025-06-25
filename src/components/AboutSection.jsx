@@ -45,7 +45,7 @@ We’re here to empower seniors with a simple, delicious solution to stay health
                         <HeartPulse className='h-6 w-6 text-primary'/>
                         </div>
                         <div className='text-left'>
-                            <h4 className='font-semibold'> Natural anti-inflammatory and antioxidant.</h4>
+                            <h4 className='font-semibold'> Natural  anti-inflammatory and antioxidant.</h4>
                         </div>
                     </div>
                 </div>
