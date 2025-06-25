@@ -24,16 +24,11 @@ const AboutSection = () => {
                     preservatives, or processed ingredients. Every bottle is packed with bioavailable nutrients that the body can recognize, 
                     absorb, and use — supporting immunity, energy, and overall vitality without compromise.
 
-We’re here to empower seniors with a simple, delicious solution to stay healthy, strong, and informed — because wellness shouldn't be complicated or synthetic.
+                    We’re here to empower seniors with a simple, delicious solution to stay healthy, strong, and informed — because wellness shouldn't be complicated or synthetic.
                 </p>
                 <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
                     <a className='cosmic-button' href='#contact'>
                         Order
-                    </a>
-                     <a 
-                        className=' flex items-center gap-2 px-6 py-2 rounded-full border-primary text-primary hover:bg-primary/10 transition-colors duration-300 max-sm:items-center' 
-                        href='#contact'>
-                        <span className='underline'>Order</span>
                     </a>
                 </div>
             </div>

@@ -96,7 +96,7 @@ const ContactSection = () => {
                             name='name' 
                             required
                             className='w-full px-4 py-3 rounded-md border border-input text-black bg-white focus-outline-hidden focus:ring-2 focus:ring-primary'
-                            placeholder='Pedro Machado...'
+                            
                         />
                     </div>
                     <div>
@@ -107,7 +107,7 @@ const ContactSection = () => {
                             name='email' 
                             required
                             className='w-full px-4 py-3 rounded-md border border-input text-black bg-white focus-outline-hidden focus:ring-2 focus:ring-primary'
-                            placeholder='pedro@gmail.com'
+                            placeholder='....@gmail.com'
                         />
                     </div>
                     <div>
