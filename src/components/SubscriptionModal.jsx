@@ -15,7 +15,7 @@ const SubscriptionModal = ({ isOpen, onClose, onSubmit, formData, onChange }) =>
             name='name'
             value={formData.name}
             onChange={onChange}
-            className='w-full bg-white border border-input rounded px-3 py-2 mt-1'
+            className='w-full bg-white text-black border border-input rounded px-3 py-2 mt-1'
             required
           />
         </div>
@@ -26,7 +26,7 @@ const SubscriptionModal = ({ isOpen, onClose, onSubmit, formData, onChange }) =>
             type='email'
             value={formData.email}
             onChange={onChange}
-            className='w-full bg-white border border-input rounded px-3 py-2 mt-1 flex items-start'
+            className='w-full bg-white text-black border border-input rounded px-3 py-2 mt-1 flex items-start'
             required
           />
         </div>
@@ -36,7 +36,7 @@ const SubscriptionModal = ({ isOpen, onClose, onSubmit, formData, onChange }) =>
             name='phone'
             value={formData.phone}
             onChange={onChange}
-            className='w-full bg-white border border-input rounded px-3 py-2 mt-1'
+            className='w-full bg-white text-black border border-input rounded px-3 py-2 mt-1'
             required
           />
         </div>
