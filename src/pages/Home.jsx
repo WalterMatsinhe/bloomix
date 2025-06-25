@@ -6,6 +6,7 @@ import AboutSection from '../components/AboutSection';
 import ProductSection from '../components/ProductSection';
 import ContactSection from '../components/ContactSection';
 import SubscriptionModal from '../components/SubscriptionModal';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -22,7 +23,6 @@ const Home = () => {
 
   return (
     <div className='relative'>
-      {/* Blur all content behind modal */}
       <div className={`${isModalOpen ? 'blur-sm pointer-events-none select-none' : ''} transition-all duration-300`}>
         <ThemeToggle />
         <NavBar />
@@ -41,10 +41,10 @@ const Home = () => {
           />
           <AboutSection />
           <ContactSection />
+          <Footer/>
         </main>
       </div>
 
-      {/* Modal only */}
       {isModalOpen && (
         <div className='fixed inset-0 z-50 flex justify-center items-center'>
           <SubscriptionModal
