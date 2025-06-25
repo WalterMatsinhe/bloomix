@@ -26,13 +26,14 @@ const ProductSection = ({ isModalOpen, setIsModalOpen }) => {
         </h2>
 
         <div className='flex flex-col justify-center items-center'>
-          <div className='w-[955px] h-[455px] sm:w-5 xs:w-full xs:h-64 md:w-[600px] md:h-[300px] lg:w-[800px] lg:h-[400px] xl:w-[900px] xl:h-[450px] 2xl:w-[955px] 2xl:h-[455px] relative rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300'>
+          <div className='w-full h-auto sm:w-[500px] sm:h-[250px] md:w-[600px] md:h-[300px] lg:w-[800px] lg:h-[400px] xl:w-[900px] xl:h-[450px] 2xl:w-[955px] 2xl:h-[455px] relative rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300'>
             <img
               src='/vita-shield.png'
               alt='juices'
               className='w-full h-full rounded-lg border-4'
             />
           </div>
+
           <button
             className='subscribe-button text-xl'
             onClick={() => setIsModalOpen(true)}
