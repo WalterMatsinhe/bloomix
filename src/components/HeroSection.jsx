@@ -1,5 +1,6 @@
 import { ArrowDown } from 'lucide-react';
 import React from 'react';
+import { BellRing } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -20,10 +21,13 @@ const HeroSection = () => {
             We believe every senior deserves easy access to clean, effective nutrition. Our juice blend delivers non-processed,
              bioavailable nutrients to strengthen the body, support immunity, and promote a healthy lifestyle — the natural way.
           </p>
-          <div className='pt-4 opacity-0 animate-fade-in-delay-4'>
-            <a className='text-xl cosmic-button' href='#product'>
+          <div className='pt-4 opacity-0 animate-fade-in-delay-4 flex flex-col sm:flex-row gap-18 justify-center'>
+            <a className='text-xl cosmic-button  flex justify-center items-center ' href='#product'>
                 View Product
             </a>
+            <button className='flex items-center gap-2 px-6 py-2 rounded-full border-primary text-primary-foreground hover:bg-red-600 transition-colors duration-300 max-sm:items-center'>
+               Subscribe<span><BellRing className='ml-3' /></span>
+            </button>    
           </div>
         </div>
       </div>

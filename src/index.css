@@ -70,7 +70,7 @@
     --card: 0 0% 95%;
 
     --primary: 130 99% 45%;
-    --primary-foreground: 210 40% 98%;
+    --primary-foreground:0 0% 0%%;
 
     --border: 130 99% 45%
     
@@ -150,6 +150,9 @@
   @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
          transition-all duration-300 hover:shadow-[0_0_1px_rgba(0,124,176,5.5)]
          hover:scale-105 active:scale-95;
+}
+@utility subscribe-button{
+  @apply bg-red-600  text-white p-2 w-44 rounded-xl  flex justify-center items-center mt-4 hover:scale-105 active:scale-95
 }
 
 @utility toggle-button {
