@@ -11,9 +11,9 @@ const HeroSection = ({ setIsModalOpen }) => {
       <div className='container max-w-4xl mx-auto text-center z-10 '>
         <div className='space-y-6 '>
           <h1 className='text-4xl md:text-6xl font-bold tracking-tight'>
-            <span className='opacity-0 animate-fade-in delay-[0ms]'>Naturally, </span>
-            <span className='opacity-0 text-primary animate-fade-in delay-[300ms]'> Powerfully </span>
-            <span className='opacity-0 text-gradient ml-2 animate-fade-in delay-[500ms]'>Protected</span>
+            <span className='opacity-0 animate-fade-in delay-[0ms]'>Boost your </span>
+            <span className='opacity-0 text-primary animate-fade-in delay-[300ms]'> Immunity </span>
+            <span className='opacity-0 text-gradient ml-2 animate-fade-in delay-[500ms]'>Naturally</span>
           </h1>
           <p className='text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mt-10 mb-8 opacity-0 animate-fade-in-delay-3'>
             Your daily boost of pure, plant-based nutrition — crafted to support immunity and vitality in seniors without side effects, synthetics, or confusion.
