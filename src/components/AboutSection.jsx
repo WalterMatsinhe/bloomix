@@ -1,5 +1,6 @@
 import { Activity, HeartPulse } from 'lucide-react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const AboutSection = () => {
   return (
@@ -28,9 +29,9 @@ const AboutSection = () => {
                     We’re here to empower seniors with a simple, delicious solution to stay healthy, strong, and informed — because wellness shouldn't be complicated or synthetic.
                 </p>
                 <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
-                    <a className='cosmic-button' href='#contact'>
-                        Order
-                    </a>
+                    <Link className='cosmic-button font-bold' to ='/services'>
+                        Services
+                    </Link>
                 </div>
             </div>
 

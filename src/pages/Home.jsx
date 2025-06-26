@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <div className='relative'>
-      <div className={`${isModalOpen ? 'blur-sm pointer-events-none select-none' : ''} transition-all duration-300`}>
+      <div className={`${isModalOpen ? 'blur-sm pointer-events-none select-none' : ''} transition-all duration-300  backdrop-blur-sm`}>
         <ThemeToggle />
         <NavBar />
         <main>
@@ -41,7 +41,6 @@ const Home = () => {
           />
           <AboutSection />
           <ContactSection />
-          <Footer/>
         </main>
       </div>
 
