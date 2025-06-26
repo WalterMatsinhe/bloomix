@@ -41,6 +41,7 @@ const Home = () => {
           />
           <AboutSection />
           <ContactSection />
+          <Footer/>
         </main>
       </div>
 
