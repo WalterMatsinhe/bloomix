@@ -15,9 +15,10 @@ const AboutSection = () => {
             <div className='space-y-6'>
                 <h3 className='text-2xl font-semibold'>At Boomix, we’re more than just a juice — we’re a mission.</h3>
                 <p className='text-muted-foreground '>
-                    As people age, access to proper nutrition becomes harder, and manufactured supplements often come 
-                    with side effects or confusing ingredient lists. That’s why we created a natural, nutrient-rich juice specifically 
-                    formulated for senior citizens who deserve better.
+                   Vitashield is a wellness-driven brand, that provides 100%Organic plant based nutritional supplements formulated for 
+                   middle aged adults. The goal is to help this demographic strengthen their immune system, combat age-related nutritional 
+                   deficiencies and improve overall vitality naturally. We also offer personalized nutritional consultations and educational
+                    wellness content to empower healthier lifestyles through nature.
                 </p>
                 <p className='text-muted-foreground'>
                     Our supplements are made from real fruits, vegetables, and herbs, with no artificial additives, 
