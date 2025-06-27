@@ -47,7 +47,7 @@ const ContactSection = () => {
                                 href=''
                                 className='text-muted-foreground hover:text-primary transition-colors'
                             >
-                            Boomix@gmail.com  
+                            inquires@vita-shield.com  
                             </a>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ const ContactSection = () => {
                                 href='tel: '
                                 className='text-muted-foreground hover:text-primary transition-colors'
                             >
-                             (+254) 5555555 
+                             (+254) 075555555 
                             </a>
                         </div>
                     </div>
