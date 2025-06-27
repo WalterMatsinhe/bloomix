@@ -60,7 +60,7 @@ const SubscriptionModal = ({ isOpen, onClose, onSubmit, formData, onChange }) =>
                 className='w-4 h-4 text-primary bg-gray-100 border-gray-300'
               />
               <label htmlFor='monthly' className='ml-2 text-sm text-primary-foreground'>
-                Monthly (499 KSH)
+                Monthly (2800 KSH)
               </label>
             </div>
             
@@ -75,7 +75,7 @@ const SubscriptionModal = ({ isOpen, onClose, onSubmit, formData, onChange }) =>
                 className='w-4 h-4 text-primary bg-gray-100 border-gray-300'
               />
               <label htmlFor='yearly' className='ml-2 text-sm text-primary-foreground'>
-                Yearly (1000 KSH)
+                Yearly (33,600 KSH)
               </label>
             </div>
             <div className='flex items-center'>
@@ -89,7 +89,7 @@ const SubscriptionModal = ({ isOpen, onClose, onSubmit, formData, onChange }) =>
                     className='w-4 h-4 text-primary bg-gray-100 border-gray-300'
                   />
                   <label htmlFor='premium' className='ml-2 text-sm text-primary-foreground'>
-                  Premium (1200 KSH)
+                  Premium (28,560 KSH)
                   </label>
               </div>
           </div>
